@@ -1,0 +1,508 @@
+/* General styles */
+body {
+	margin: 0;
+	padding: 0;
+	color: black;
+	background-color: lemonChiffon;
+  /*Typography*/
+  font-family: 'TimesNewRoman', serif;
+  font-size: 18px;
+  line-height: 1.5;
+
+}
+
+h1 {
+  padding: 20px 0 0 0;			// padding before
+  margin: 0 0 25px 0;       		  // margin only at the bottom
+  font-size: 48px;
+  line-height: 1.1;
+  text-align: left;
+  color: maroon;
+  font-family: 'Gabriela', serif;
+}
+
+h2 {
+  padding: 20px 0 0 0;			// padding before
+  margin: 0 0 36px 0;       		  // margin only at the bottom
+  font-size: 24px;
+  line-height: 1.1;
+  text-align: left;
+  color: maroon;
+  font-family: 'Gabriela', serif;
+}
+
+h3 {
+  padding: 20px 0 0 0;			// padding before
+  margin: 0 0 25px 0;       		  // margin only at the bottom
+  font-size: 24px;
+  line-height: 1.1;
+  text-align: left;
+  color: maroon;
+  font-family: 'Gabriela', serif;
+}
+
+h4 {
+  padding: 20px 0 0 0;			// padding before
+  margin: 0 0 25px 0;       		  // margin only at the bottom
+  font-size: 18px;
+  line-height: 1.1;
+  text-align: left;
+  color: maroon;
+  font-family: 'Gabriela', serif;
+}
+
+img  {
+  width: 100%;
+}
+
+
+
+html, body {
+    height: 100%;
+}
+
+
+
+main {
+    flex: 1 0 auto;
+		margin-bottom: 12px;
+}
+
+/* wrapper */
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+/* columns */
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.columns1 {
+	background-color: ivory;
+}
+
+.columns2 {
+	background-color: burlywood;
+}
+
+.column {
+  flex: 1 0 50%;
+	min-width: 200px;
+}
+
+.text {
+  padding-left: 10px;
+  padding-right: 10px;
+	box-sizing: border-box;
+}
+
+
+/* order button */
+
+.order-button h4 {
+  background-color: chocolate;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 30px;
+  text-align: center;
+	text-decoration: none;
+	border: 2px solid maroon;
+}
+
+/* table styles */
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,th {
+  border: solid 1px black ;
+  padding: 3px;
+}
+
+th {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: ivory;
+}
+
+      /*columns with amounts - right alignment*/
+td:nth-child(3){
+  text-align: right;
+}
+
+td:nth-child(4){
+  text-align: right;
+}
+
+.table-icon {
+  width: 30px;
+}
+
+
+/* header styles */
+
+header {
+    display: flex;
+    max-width: 880px;
+    width: 100%;
+    margin: 12px auto 0;
+    background-color: chocolate;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+/* logo container style */
+.logo-container {
+  width: 50px;
+  flex: auto;
+  align-self: flex-end;
+  padding: 20px;
+}
+
+/*main menu style*/
+.main-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-menu li {
+  margin: 5px;
+  flex: 1 0 auto;
+}
+
+.main-menu a {
+  text-decoration: none;
+  font-size: 12px;
+  text-align: center;
+  color: black;
+  background-color: chocolate;
+  display: block;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px 20px;
+}
+
+.main-menu a.current {
+  background-color: maroon;
+  color: lemonChiffon;
+}
+
+.main-menu a:hover,
+.main-menu a:focus {
+  background-color: black;
+  color: lemonChiffon;
+}
+
+
+/*offer menu style*/
+.offer-menu-container {
+  display: flex;
+  width: 100%;
+  margin: 0px auto 0;
+  background-color: maroon;
+  justify-content: space-between;
+}
+
+
+
+.offer-menu ul li {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+}
+.offer-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.offer-menu li {
+  margin: 20px 20px;
+  flex: 1 0 auto;
+}
+
+.offer-menu a {
+  text-decoration: none;
+  font-size: 20px;
+  width: 150px;
+  text-align: center;
+	font-weight: 500;
+  color: black;
+  display: block;
+  border: 5px solid maroon;
+  border-radius: 4px;
+  padding-top: 100px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-right: 10px;
+	margin: 10px 8px;
+}
+
+.offer-menu h3 {
+  text-decoration: none;
+  font-size: 20px;
+  text-align: left;
+  color: lemonChiffon;
+  padding-top: 50px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-right: 10px;
+	margin: 10px 8px;
+}
+
+.offer-menu a.current {
+  border: 5px solid lemonChiffon;
+}
+
+.offer-menu a:hover,
+.offer a:focus {
+	border: 5px solid chocolate;
+
+}
+
+
+
+
+/* banner styles */
+.banner{
+  background-image: url(Images/banner2.png);
+  background-color: white;
+  text-align: center;
+  background-position: center ;
+  background-repeat: no-repeat;
+  height: 250px;
+
+}
+
+.banner h2 {
+  font-size: 60px;
+  color: black;
+  line-height: 100px;
+  padding-top: 110px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+.banner p {
+  font-size: 24px;
+  color: black;
+  margin-top: 1px;
+  font-family: 'Dancing Script', cursive;
+
+  }
+
+/* text image container (about page) */
+
+
+
+.img-txt-container {
+display: flex;
+margin: 10px 0;
+}
+
+.img-container {
+  width: 300px;
+ }
+.img-container img {
+  display: block;
+  padding: 30px 20px 20px 10px;
+}
+
+.txt-container {
+padding: 10px 20px 20px 70px;
+}
+
+.txt-container h2 {
+  margin: 0;
+}
+
+.txt-container h4 {
+  margin: 0;
+ font-style: italic;
+}
+
+.txt-container p {
+  border-top: 1px maroon solid;
+  padding-top: 10px;
+}
+
+/** product catalogue background images **/
+
+
+
+.rink-cake {
+  background-image: url(Images/napfkuchen.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0% 50%;
+}
+
+
+.muffins {
+	background-image: url(Images/muffins.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0% 50%;
+}
+.crumble-cake {
+  background-image: url(Images/apfel-streuselkuchen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 50%;
+}
+
+.tarte {
+  background-image: url(Images/tarte.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.cheese-cake {
+	  background-image: url(Images/cheesecake.jpg);
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  background-position: 50% 50%;
+ }
+
+.cup-cake {
+	 background-image: url(Images/cupcake.jpg);
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-position: 50% 25%
+}
+
+.pop-cake {
+	background-image: url(Images/popcakes.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 25% 25%;
+}
+
+.bread {
+	background-image: url(Images/bread.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+
+/* product selection on index page */
+
+.tarte h3, .crumble-cake h3 {
+  margin-top: 200px;
+  margin-bottom: 10px;
+  margin-left: calc(50% - 20px);
+  margin-right: 10px;
+  padding: 10px 20px 10px;
+  background-color: white;
+  opacity: 0.6;
+  border: solid 1px black;
+
+}
+
+.column a:link {
+    color: maroon;
+    text-decoration: none;
+}
+/* visited link */
+.column a:visited {
+    color: maroon;
+    text-decoration: none;
+}
+/* mouse over link */
+.column a:hover {
+    color: maroon;
+    text-decoration: underline;
+}
+/* selected link */
+.column a:active {
+    color: maroon;
+    text-decoration: none;
+
+}
+
+
+
+
+
+/* footer styles */
+
+
+footer {
+    flex-shrink: 0;
+    background: maroon;
+    color: lemonChiffon;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text-container {
+  display: block;
+
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 4px;
+}
+/* special styles for social media links in footer */
+/* unvisited link */
+footer a:link {
+    color: lemonChiffon;
+    text-decoration: none;
+}
+/* visited link */
+footer a:visited {
+    color: lemonChiffon;
+    text-decoration: none;
+}
+/* mouse over link */
+footer a:hover {
+    color: lemonChiffon;
+    text-decoration: underline;
+}
+/* selected link */
+footer a:active {
+    color: lemonChiffon;
+    text-decoration: none;
+
+}
